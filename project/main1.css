@@ -1,0 +1,69 @@
+/*Homepage*/
+body{
+	background-image: url("assets/tune.png");
+	background-size: cover;}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* type */
+
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 55px;
+    line-height: 1.4;
+    background-color: #fefefe;
+}
+
+
+/* structure */
+
+.all {
+  max-width: 1000px;
+  padding: 100px 30px;
+  margin: auto;
+  font-weight: 300;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.name{
+	font-family: roboto, sans-serif;
+	color: black;
+	font size: 80%;}
+
+
+.fillbox {
+  border: 1px solid #transparent;
+  border-width: 3.5px;
+  padding: 0 10px;
+  transition: all 0.5s ease;
+  font size: auto;
+  -webkit-text-stroke:0.7px black;
+  color: transparent;
+
+}
+
+.fillbox:hover {
+  background-color:white;
+  color: black;
+  cursor: pointer; 
+}
+
+body{
+    font-family: arial, sans-serif;
+    text-align: center;
+    line-height: 1.4;
+    margin: 40px;
+    background-color: #fefefe;
+    margin: 120px;
+}
+
+
+
+
+
+
+/*Homepage*/

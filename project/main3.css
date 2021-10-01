@@ -1,0 +1,45 @@
+body{
+  background-color: white;
+    padding: 0px;
+    margin: 0px;}
+
+h2{
+  color: white;
+  font-family: roboto, sans-serif;
+  text-decoration: none;  
+  text-align: center;}
+
+
+.title{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 80px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: vidaloka;}
+
+
+.question{
+  font-family: viaoda libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  color: black; 
+  margin-left: 5%;
+  margin-right: 50%;
+  line-height: 99px;
+  padding-top: 0%;
+
+}
+.answer{
+  font-family: viaoda libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  color: black; 
+  margin-left: 50%;
+  margin-right: 5%;
+  padding-bottom: 15%;}
+
+}
