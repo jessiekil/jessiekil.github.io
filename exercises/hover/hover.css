@@ -1,0 +1,115 @@
+
+body{
+    background-image: url("iphone.png");
+    background-size: cover;}
+
+/* type */
+
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 38px;
+    line-height: 1.4;
+    background-color: #fefefe;
+}
+
+p {
+    font-family: arial, sans-serif;
+}
+
+.content{
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke:2px white;
+    font-size: 140%;
+
+}
+
+.jessie {
+  font-style: italic;
+  transition: all 10s ease-in-out;
+}
+
+.jessie:hover {
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.change {
+  background: -webkit-linear-gradient(#aeff5c, #ed82ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.change:hover {
+  background: -webkit-radial-gradient(#ed82ad, #ff5c9d, #5cffd4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+
+.snapchat {
+margin-top: 30px;
+margin-right: 55%;
+transition: all 0.5s ease;
+max-height: 10%;
+max-width: 10%;
+}
+
+.snapchat:hover {
+  -webkit-transform: rotate(-360deg) scale(2);
+  transform: rotate(-360deg) scale(2);
+  cursor: pointer;
+}
+
+.gmail {
+  width: 400px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  margin-right: 55% ;  
+  margin-top: 60px;
+  background-color: #acefd6;
+  -webkit-transform: rotate(45deg);
+  -webkit-transition: all 1s ease-in-out;
+}
+
+.gmail:hover {
+  border-radius: 30px;
+  width: 150px;
+  height: 100px;
+  background-color: transparent;
+  -webkit-transform: scale(2);
+  cursor: pointer;
+}
+
+.bw img {
+  display: block;
+  margin-top: -440px;
+  width: 150px;
+  margin-left: 70%;
+  height: 150px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  padding: 60px 0 60px 0;
+}
+
+.bw img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+.uber img {
+  z-index: 0;
+  position: absolute;
+  margin-left: 18%;
+  margin-top: -50px;
+  max-width: 200px;
+  opacity: 0.05;
+  -webkit-transition: all .5s ease-in-out;
+}
+.uber:hover img {
+  opacity: 1;
+}
