@@ -1,0 +1,16 @@
+Body {
+    background-image: url("iphone.png");
+    background-size: cover;}
+
+/* type */
+
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 38px;
+    line-height: 1.4;
+    background-color: #fefefe;
+}
+
+p {
+    font-family: arial, sans-serif;
