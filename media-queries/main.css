@@ -1,19 +1,260 @@
 body {
   font-size:  16px;
+  background-color: #332421;
+  color: white;
+  margin: 100px;
+  max-width: 3000px;
+  }
+
+h2{
+  font-family: lobster;}
+
+h3{
+  font-size: 17px;
+  font-family: arial;}
+
+/* Table */
+h4{
+  font-size: 18px;
+  font-family: lobster;
+  text-align: center;
+  margin-top: 6px;}
+
+.content-table{
+  display: flex;
+  flex-direction: column;
+padding: 10px;}
+
+* {box-sizing:  border-box;}
+
+.table {
+  width: 200px;
+  justify-content: flex-start;
+  align-content: flex-start;
+  background-color: white;
+  text-align: center;
+  font-family: bloomsburg;
+  display: flex;
+  padding:10px;
+  background-color: white;
+  min-height: 300px;
+  color:  #332421;
+  font-size:  20px;
+  flex-direction: column;
+  border: black 2px;
+  float: left;
+  margin: 20px;
+}
+
+/* Table of content */
+.item{
+  width: 300px;
+  height: 790px;
+  justify-content: flex-start;
+  align-content: flex-end;
+  background-color: white;
+  border: solid #291D1A 6px;
+  text-align: center;
+  color: #423634;
 }
 
 .title{
-  text-align: center;
+  text-align: left;
+  max-width: 3000px;
+  font-family: wonderbar;
+  font-size: 97px;
+  color: white;
 }
 
-
-.container{
-  margin:  0 auto;
-  max-width: 700px;
-}
+/* Change */
 @media (max-width: 600px) {
   body {
   background-color: black;
   color:  white;
- }
+  }
+  .title{
+    color: sandybrown;
+    font-size: 70px;
+    font-family: lobster;
+  }
+}
+/* END OF CHANGE */
+
+.content{
+  font-family: roboto slab;
+  font-size: 15px;
+}
+
+.line{
+    width: 100%;
+    border: 0.25px solid white;
+}
+
+.line1{
+  width: auto;
+  border: 5px solid white;
+}
+
+/* content */
+.imgfilters0 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 190px;
+  padding: 10px;
+}
+
+.imgfilters0 img:hover {
+  filter: none;
+  cursor: pointer;
+}
+.imgfilters img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 180px;
+  max-width: 180px;
+  float: right;
+  padding: 10px;
+}
+
+.imgfilters img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+
+.imgfilters1 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 220px;
+  float: left;
+  padding: 10px;
+}
+
+.imgfilters1 img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+.imgfilters2 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 220px;
+  float: right;
+  padding: 10px;
+}
+
+.imgfilters2 img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+
+.imgfilters3 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 220px;
+  float: right;
+  padding: 10px;
+}
+
+.imgfilters3 img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+
+.imgfilters4 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 160px;
+  margin:10px ;  
+  float: right;
+
+}
+
+.imgfilters4 img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+
+
+.imgfilters5 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-height: 100px;
+  float: right;
+}
+
+.imgfilters5 img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+
+.imgfilters6 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 150px;
+  float: right;
+  padding: 20px;
+}
+
+.imgfilters6 img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+
+.imgfilters7 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 170px;
+  padding: 20px;
+  float: right;
+}
+
+.imgfilters7 img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+
+.imgfilters8 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 220px;
+  padding: 10px;
+  float: right;
+}
+
+.imgfilters8 img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+.imgfilters9 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 220px;
+  padding: 10px;
+  float: left;
+}
+
+.imgfilters9 img:hover {
+  filter: none;
+  cursor: pointer;
+}
+
+.imgfilters10 img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  max-width: 210px;
+  padding: 5px;
+  float: right;
+}
+
+.imgfilters10 img:hover {
+  filter: none;
+  cursor: pointer;
 }
