@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'roboto slab';
+    src: url('RobotoSlab-Regular.woff2') format('woff2'),
+        url('RobotoSlab-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 body {
   font-size:  16px;
   background-color: #332421;
@@ -81,7 +89,7 @@ padding: 10px;}
 /* END OF CHANGE */
 
 .content{
-  font-family: roboto slab;
+  font-family: 'roboto slab';
   font-size: 15px;
 }
 
