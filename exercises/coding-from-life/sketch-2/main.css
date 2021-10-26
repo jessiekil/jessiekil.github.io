@@ -16,25 +16,18 @@ body {
   height: 57vw;
   background: #B9DEFE;
   margin: 2.5vw auto;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+  position: relative;}
 
 .table {
  border-bottom: 260px solid whitesmoke;
  border-left: 110px solid transparent;
  border-right: 110px solid transparent;
  height: 10;
- width: 900px;
+ width: 1000px;
  position: absolute;
+ left: 5%;
  bottom: 0%;
- z-index: 1;
- display: flex;
-justify-content: center;
-align-content: center;
-}
+ z-index: 1;}
 
 .inner {
 top: 90%;
@@ -45,11 +38,7 @@ width: 200px;
 height: 100px;
 border-radius: 100px / 50px;
 background: #8A5C42;
-  z-index: 4;
-display: flex;
-  justify-content: center;
-  align-content: center;
-}
+  z-index: 4;}
 
 .outer {
 top: 90%;
@@ -60,11 +49,7 @@ width: 169px;
 height: 80px;
 border-radius: 100px / 50px;
 background: whitesmoke;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+  z-index: 4;}
 
 .stick{
   position: absolute;
@@ -74,12 +59,7 @@ background: whitesmoke;
   width: 10px;
   height: 300px;
   background: #FCEBBC;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
+  z-index: 4;}
 
 .cylinder::before{
   content: '';
@@ -90,12 +70,7 @@ background: whitesmoke;
   height:140px;
   border-radius: 500px/50px;
   background:  #DDD5BC;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
+  z-index: 4;}
 .gradient1 {
   content: '';
   position: absolute;
@@ -105,12 +80,7 @@ background: whitesmoke;
   height:140px;
   border-radius: 500px/50px;
   background:  #8D7D5C;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
+  z-index: 4;}
 
 .gradient2 {
   content: '';
@@ -138,12 +108,7 @@ background: whitesmoke;
   height:138px;
   border-radius: 500px/50px;
   background:  #C2BDAB;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
+  z-index: 4;}
 
 
 .gradient4 {
@@ -155,12 +120,7 @@ background: whitesmoke;
   height:138px;
   border-radius: 500px/50px;
   background:  #83755F;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
+  z-index: 4;}
 
 .gradient5 {
   content: '';
@@ -171,12 +131,7 @@ background: whitesmoke;
   height:138px;
   border-radius: 500px/50px;
   background:  #83755F;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
+  z-index: 4;}
 
 .whitecandle::before{
   content: '';
@@ -187,12 +142,7 @@ background: whitesmoke;
   height:146px;
   border-radius: 200px/50px;
   background:  whitesmoke;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
+  z-index: 4;}
 
 .tip {
   content: '';
@@ -203,12 +153,7 @@ background: whitesmoke;
   height:30px;
   border-radius: 200px/50px;
   background:  #9D9A99;
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
+  z-index: 4;}
 
 /* ---------THIS IS THE SECOND CANDLE --------*/
 .inner2 {
@@ -220,11 +165,7 @@ width: 150px;
 height: 50px;
 border-radius: 200px / 90px;
 background: #8A5C42;
-z-index: 2;
-display: flex;
-  justify-content: center;
-  align-content: center;
-}
+z-index: 2;}
 
 .outer2 {
 top: 72%;
@@ -235,12 +176,7 @@ width: 120px;
 height: 32px;
 border-radius: 200px / 90px;
 background: whitesmoke;
-z-index: 2;
-display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
+z-index: 2;}
 
 .stick2{
   position: absolute;
@@ -250,12 +186,7 @@ display: flex;
   width: 8px;
   height: 290px;
   background: #FCEBBC;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-
-}
+  z-index: 1;}
 
 .cylinder2::before{
   content: '';
@@ -266,9 +197,7 @@ display: flex;
   height:120px;
   border-radius: 500px/50px;
   background:  #DDD5BC;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 .gradient6 {
   content: '';
@@ -279,9 +208,7 @@ display: flex;
   height:120px;
   border-radius: 500px/50px;
   background:  #422F0F;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 .gradient7 {
@@ -293,9 +220,7 @@ display: flex;
   height:120px;
   border-radius: 500px/50px;
   background:  #C2BDAB;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 
@@ -307,11 +232,7 @@ display: flex;
   width: 7px;
   height:120px;
   border-radius: 500px/50px;
-  background:  #C2BDAB;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+  background:  #C2BDAB;}
 
 
 .gradient9 {
@@ -323,9 +244,7 @@ display: flex;
   height:120px;
   border-radius: 500px/50px;
   background:  #6D6B5A;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 .gradient10 {
@@ -336,11 +255,7 @@ display: flex;
   width: 2px;
   height:118px;
   border-radius: 500px/50px;
-  background:  #6D6B5A;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+  background:  #6D6B5A;}
 
 .whitecandle1::before{
   content: '';
@@ -351,9 +266,7 @@ display: flex;
   height:123px;
   border-radius: 200px/50px;
   background:  whitesmoke;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 .tip1 {
@@ -365,9 +278,7 @@ display: flex;
   height:20px;
   border-radius: 200px/50px;
   background:  #9D9A99;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 /* PUMPKIN STARTS */
@@ -381,9 +292,7 @@ display: flex;
   transform: translateX(-50%) translateY(-50%);
   border-radius: 70%/110%;
   z-index: 2;
-  display: flex;
-  justify-content: flex-start;
-  align-content: inherit;
+
 }
 
 
@@ -397,9 +306,7 @@ display: flex;
   border-top: 8px solid #975937;
   border-radius: 70%/110%;
   z-index: 3;
-  display: flex;
-  justify-content: flex-start;
-  align-content: inherit;
+
 }
 
 .pumpkin-shadow::before{
@@ -413,9 +320,7 @@ display: flex;
   border-top: 8px solid #975937;
   border-radius: 70%/110%;
   z-index: 3;
-  display: flex;
-  justify-content: flex-start;
-  align-content: inherit;
+
 }
 
 .root{
@@ -428,9 +333,7 @@ display: flex;
   top: 55%;
   transform: rotate(5deg);
   z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 /* ---------THIS IS THE VEGGIE  --------*/
@@ -444,11 +347,7 @@ display: flex;
   top:  79%;
   left: 50%;
   transform: rotate(150deg);
-  z-index: 4;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+  z-index: 4;}
 
 .veggie::before{
   content: '';
@@ -460,11 +359,7 @@ display: flex;
   border-radius: 50%;
   border-right: 1vmin solid #482308;
   transform: rotate(95deg);
-  z-index: 5;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+  z-index: 5;}
 
 .veggie::after{
   content: '';
@@ -478,9 +373,7 @@ display: flex;
   border-left: 1vmin solid #482308;
   transform: rotate(105deg);
   z-index: 5;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 .root2{
@@ -494,9 +387,7 @@ display: flex;
   transform: rotate(5deg);
   border-radius: 50% 130%;
   z-index: 6;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 /* ---------THESE ARE THE CHAIRS  --------*/
@@ -510,9 +401,7 @@ display: flex;
   background: #847E71;
   border-radius: 80%/40%;
   z-index: 0;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  
 }
 
 
@@ -525,9 +414,7 @@ display: flex;
   background: #847E71;
   border-radius: 80%/40%;
   z-index: 0;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 /* ---------THIS IS THE POT  --------*/
@@ -541,9 +428,7 @@ display: flex;
   background: #B27995;
   border-radius: 60%;
   z-index: 6; 
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 
@@ -556,9 +441,7 @@ display: flex;
   background: #A87690;
   border-radius: 60%;
   z-index: 7; 
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 .head::before{
@@ -573,9 +456,7 @@ display: flex;
   border-right: 1vmin solid #8E667B;
   transform: rotate(90deg);
   z-index: 5;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 .bottom{
@@ -587,9 +468,7 @@ display: flex;
   background: #B27995;
   border-radius: 60%;
   z-index: 7; 
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 
 .bottom::before{
@@ -604,9 +483,7 @@ display: flex;
   border-right: 1vmin solid #8E667B;
   transform: rotate(90deg);
   z-index: 8;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
 .circle{
   position: absolute;
@@ -616,9 +493,5 @@ display: flex;
   top: 65%;
   background: #7C5069;
   border-radius: 50%;
-  z-index: 8; 
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+  z-index: 8; }
 
