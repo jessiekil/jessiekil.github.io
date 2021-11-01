@@ -9,7 +9,7 @@ body {
   background-color: lightpink;
   font-family: lobsterregular;
   color: white;
-  font-size: 75px;
+  font-size: 120px;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 
 .item {
   text-align: center;
-  margin-top: 20%;}
+  margin-top: 5%;}
 
 
 
