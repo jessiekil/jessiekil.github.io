@@ -1,6 +1,6 @@
 
 body {
-  background-color:  black;
+  background-color:  #F8CD47;
 }
 
 section {
@@ -8,30 +8,116 @@ section {
   flex-direction:  column;
   justify-content: center;
   align-items:  center;
-  height:  100vh;
 }
 
-.button {
+/* bacon */
+
+.button 
+{
   padding: 20px 50px;
-  border-radius: 30px;
-  background-color:  white;
-  color:  black;
-  font-size:  60px;
+  color:  white;
   font-size: 20px;
   text-align:  center;
   transition:  all 100ms;
+  margin-bottom: 19.7%;
+  margin-left: -40%;
+  font-family: helvetica, bold;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: orangered;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
-.button:hover {
-  background-color: #DEB887;
-  cursor:  pointer;
+/* eggs */
+
+.button-2{
+  padding: 20px 50px;
+  color:  #FFAE42;
+  font-size: 20px;
+  text-align:  center;
+  transition:  all 100ms;
+  margin-top: -24%;
+  margin-left: 42%;
+  font-family: helvetica, bold;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+/* banana */
+
+.button-3 {
+  padding: 20px 50px;
+  color:  white;
+  font-size: 20px;
+  text-align:  center;
+  transition:  all 100ms;
+  margin-top: -64px;
+  margin-left: 20px;
+  font-family: helvetica, bold;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background-color: #FFAE42;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .buttonOn {
-  background-color:  black;
-  color:  white;
+  background-color: white;
+  color: orangered;
 }
 
 .light {
-  background-color: papayawhip;
+  background-image: url("bacon.jpg");
+}
+
+.button-2 {
+  background-color: white;
+  color: orangered;
+}
+
+.button-2:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.light1 {
+  background-image: url("egg.jpg");
+}
+
+.button-3 {
+  background-color: FFAE42;
+  color: white;
+}
+
+.button-3:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.light2 {
+  background-image: url("banana.jpg");
+}
+
+
+.content{
+    color: white;
+    font-size: 70px;
+  text-align: center;
+  margin-top: 12%;
+  font-family: 'Brush Script MT', cursive;
 }
