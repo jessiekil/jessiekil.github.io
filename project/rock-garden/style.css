@@ -6,6 +6,14 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto.woff2') format('woff2'),
+        url('roboto.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 body {
@@ -57,31 +65,16 @@ body {
 }
 
 
-.main {
+
+.about{
   background-color: transparent; 
   color: white; 
   border: none;
-  margin-left: 60%;
-  margin-top: -40%;
   font-family: 'novocento';
   font-size: 50px;
-
-}
-
-.main:hover {
-  background-color: transparent;
-  color: #FBFF47;
-}
-
-
-.about {
-  background-color: transparent; 
-  color: white; 
-  border: none;
-  margin-left: 73%;
-  font-family: 'novocento';
-  font-size: 50px;
-
+  margin-top: 1%;
+  text-align: left;
+  margin-left: 40%;
 }
 
 .about:hover {
@@ -89,19 +82,49 @@ body {
   color: #FBFF47;
 }
 
-
-
-.ppl {
+.ppl{
   background-color: transparent; 
   color: white; 
   border: none;
-  margin-left: 89%;
   font-family: 'novocento';
   font-size: 50px;
-  margin-top: -50%;
+  margin-top: 1%;
+  text-align: left;
+  margin-left: 3%;
 }
 
 .ppl:hover {
   background-color: transparent;
+  color: #FBFF47;}
+
+.pics{
+  background-color: transparent; 
+  color: white; 
+  border: none;
+  font-family: 'novocento';
+  font-size: 50px;
+  margin-top: 1%;
+  text-align: left;
+  margin-left: 3%;
+}
+
+
+.pics:hover {
+  background-color: transparent;
   color: #FBFF47;
 }
+
+
+.index{
+    background-color: transparent; 
+  color: black; 
+  border: none;
+  font-family: 'novocento';
+  font-size: 50px;
+  margin-left: 5%;}
+
+.index:hover {
+  background-color: transparent;
+  color: #FBFF47;}
+}
+

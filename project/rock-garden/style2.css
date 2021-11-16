@@ -1,0 +1,125 @@
+@font-face {
+    font-family:'novocento';
+    src: url('novocento.woff2') format('woff2'),
+        url('novocento.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto.woff2') format('woff2'),
+        url('roboto.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  background-color:  #F8CD47;
+}
+  /* MAIN PAGE */
+
+.project{
+    font-family: 'novocento';
+    font-size: 48px;
+    margin-top: 10%;
+    margin-left: 11%;
+}
+
+.aboutthe{
+  font-size: 29px;
+  color: white;
+  font-family: 'roboto', sans-serif;;
+  margin-top: 1%;
+  margin-left: 11%;
+  margin-right: 52%;
+  text-align: justify;}
+
+  hr{
+    max-width: 37%;
+    background-color: black;
+    margin-left: 11%;
+    height: 5px;
+    border: none;
+  }
+
+  .parsonsppl{
+    font-family: 'novocento';
+    font-size: 48px;
+    margin-top: -32%;
+    margin-left: 55%;
+}
+
+.paragraph{
+  font-size: 29px;
+  color: white;
+  font-family: 'roboto', sans-serif;;
+  margin-top: 1%;
+  margin-left: 55%;
+  margin-right: 11%;
+  text-align: justify;
+  padding-bottom: 6%;
+}
+
+
+.about{
+  background-color: transparent; 
+  color: white; 
+  border: none;
+  font-family: 'novocento';
+  font-size: 50px;
+  margin-top: 1%;
+  text-align: left;
+  margin-left: 40%;
+}
+
+.about:hover {
+  background-color: transparent;
+  color: #FBFF47;
+}
+
+.ppl{
+  background-color: transparent; 
+  color: white; 
+  border: none;
+  font-family: 'novocento';
+  font-size: 50px;
+  margin-top: 1%;
+  text-align: left;
+  margin-left: 3%;
+}
+
+.ppl:hover {
+  background-color: transparent;
+  color: #FBFF47;}
+
+.pics{
+  background-color: transparent; 
+  color: white; 
+  border: none;
+  font-family: 'novocento';
+  font-size: 50px;
+  margin-top: 1%;
+  text-align: left;
+  margin-left: 3%;
+}
+
+
+.pics:hover {
+  background-color: transparent;
+  color: #FBFF47;
+}
+
+.index{
+    background-color: transparent; 
+  color: black; 
+  border: none;
+  font-family: 'novocento';
+  font-size: 50px;
+  margin-left: 5%;}
+
+.index:hover {
+  background-color: transparent;
+  color: #FBFF47;}
+}
