@@ -115,26 +115,34 @@ body {
 }
 
 
-.index{
-    background-color: transparent; 
-  color: black; 
-  border: none;
-  font-family: 'novocento';
-  font-size: 50px;
-  margin-left: 5%;}
-
-.index:hover {
-  background-color: transparent;
-  color: #FBFF47;}
-}
-
 .intro{
   color: white; 
   border: none;
   font-family: 'novocento';
   font-size: 50px;
+  margin-top: 10%;
+  margin-left: 20%;
 }
 
+.emily{
+  color: white; 
+  border: none;
+  font-family: 'novocento';
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.emilypic{
+  background-size: 20%;
+}
+
+.emily: hover{
+  color: white; 
+  border: none;
+  font-family: 'novocento';
+  font-size: 50px;
+  text-decoration: none;
+}
 
 .text{
     color: white; 
@@ -157,3 +165,4 @@ body {
   background-color: transparent;
   color: hotpink;}
 }
+
