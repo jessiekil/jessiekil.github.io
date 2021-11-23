@@ -39,17 +39,17 @@ a:link, a:visited {
 }
 
 a.ex1 {
-  font-size: 55px;
+  font-size: 4vw;
 
 }
 a.ex2 {
   margin-left: 50%;
-  font-size: 55px;
+  font-size: 4vw;
 
 }
 
 a.ex3{
-  font-size: 55px;
+  font-size: 4vw;
 
 }
 
@@ -113,7 +113,7 @@ a.ex3{
 .paragraph-container p{
   color: white;
   font-family: 'novocento';
-  font-size: 35px;
+  font-size: 2.3vw;
   
 }
 
@@ -132,16 +132,17 @@ a.ex3{
 
 .blue{
   font-family: 'novocento';  
-  font-size: 35px;
+  font-size: 2.4vw;
   color: white;
 }
 .blue:hover {
   cursor: pointer;
-  font-size: 35px;
+  font-size: 2.4vw;
   color: blue;
 }
 
 .big{
-  font-size: 65px;
+  font-size: 4vw;
+  color: black;
 }
 
