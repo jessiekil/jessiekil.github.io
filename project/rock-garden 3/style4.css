@@ -65,7 +65,7 @@ a.ex3{
 .profile-container{
   width: 100%;
   height: 600px;
-  margin-top: 5%;
+  margin-top: 3%;
   /* background-color: blue; */
 }
 
@@ -129,6 +129,10 @@ a.ex3{
   width: auto;
 }
 
+.big{
+  font-size: 5vw;
+  color: black;
+}
 
 .blue{
   font-family: 'novocento';  
@@ -141,8 +145,68 @@ a.ex3{
   color: blue;
 }
 
-.big{
-  font-size: 4vw;
+.green{
+  font-family: 'novocento';  
+  font-size: 2.4vw;
+  color: white;
+}
+.green:hover {
+  cursor: pointer;
+  font-size: 2.4vw;
+  color: green;
+}
+
+.fuschia{
+  font-family: 'novocento';  
+  font-size: 2.4vw;
+  color: white;
+}
+.fuschia:hover {
+  cursor: pointer;
+  font-size: 2.4vw;
+  color: #FF00FF;
+}
+
+.black{
+  font-family: 'novocento';  
+  font-size: 2.4vw;
+  color: white;
+}
+.black:hover {
+  cursor: pointer;
+  font-size: 2.4vw;
   color: black;
+}
+
+.pink{
+  font-family: 'novocento';  
+  font-size: 2.4vw;
+  color: white;
+}
+.pink:hover {
+  cursor: pointer;
+  font-size: 2.4vw;
+  color: lightpink;
+}
+
+.purple{
+  font-family: 'novocento';  
+  font-size: 2.4vw;
+  color: white;
+}
+.purple:hover {
+  cursor: pointer;
+  font-size: 2.4vw;
+  color: purple;
+}
+.deepblue{
+  font-family: 'novocento';  
+  font-size: 2.4vw;
+  color: white;
+}
+.deepblue:hover {
+  cursor: pointer;
+  font-size: 2.4vw;
+  color: deepskyblue;
 }
 
