@@ -28,7 +28,7 @@ body {
     text-align: center;
     font-size: 75px;
     margin-top: 15%;
-        float: inherit;
+    float: inherit;
 
 }
 
@@ -54,7 +54,7 @@ body {
   cursor: pointer;
   border-radius: 27px;
   font-family: 'novocento';
-      float: inherit;
+  float: inherit;
 
 }
 
@@ -62,7 +62,7 @@ body {
   background-color: transparent; 
   color: white; 
   border: 3px solid white;
-      float: inherit;
+  float: inherit;
 
 }
 
