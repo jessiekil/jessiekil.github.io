@@ -28,6 +28,8 @@ body {
     text-align: center;
     font-size: 75px;
     margin-top: 15%;
+        float: inherit;
+
 }
 
 .meet{
@@ -36,27 +38,32 @@ body {
     font-size: 60px;
     margin-top: 3%;
     color: white;
+    float: inherit;
 }
 
  /* MAIN BUTTON */
 .button {
-  padding: 26px 60px;
+  padding: 18px 110px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 22px;
-  margin-left: 40%;
+  font-size: 26px;
+  margin-left: 135%;
   margin-top: 3.5%;
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 27px;
   font-family: 'novocento';
+      float: inherit;
+
 }
 
 .button1 {
   background-color: transparent; 
   color: white; 
   border: 3px solid white;
+      float: inherit;
+
 }
 
 .button1:hover {
@@ -64,67 +71,35 @@ body {
   color: #F8CD47;
 }
 
-
-
-.about{
-  background-color: transparent; 
-  color: white; 
-  border: none;
-  font-family: 'novocento';
-  font-size: 50px;
-  margin-top: 1%;
-  text-align: left;
-  margin-left: 40%;
+    /* LIINKS */
+a:link, a:visited {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+   font-size: 55px;
+   cursor: pointer;
+   font-family: 'novocento';
+   display: inline-block;
 }
 
-.about:hover {
-  background-color: transparent;
-  color: #FBFF47;
+a.ex2 {
+  margin-left: 50%;
+  float: inherit;
 }
 
-.ppl{
-  background-color: transparent; 
-  color: white; 
-  border: none;
-  font-family: 'novocento';
-  font-size: 50px;
-  margin-top: 1%;
-  text-align: left;
-  margin-left: 3%;
+a.ex3{
+  float: inherit;
 }
 
-.ppl:hover {
-  background-color: transparent;
-  color: #FBFF47;}
-
-.pics{
-  background-color: transparent; 
-  color: white; 
-  border: none;
-  font-family: 'novocento';
-  font-size: 50px;
-  margin-top: 1%;
-  text-align: left;
-  margin-left: 3%;
+a:hover, a:active {
+   color: #FBFF47;
 }
 
+a.ex1:hover, a.ex1:active {color: black;}
 
-.pics:hover {
-  background-color: transparent;
-  color: #FBFF47;
-}
-
-
-.index{
-    background-color: transparent; 
-  color: black; 
-  border: none;
-  font-family: 'novocento';
-  font-size: 50px;
-  margin-left: 5%;}
-
-.index:hover {
-  background-color: transparent;
-  color: #FBFF47;}
-}
-
+    /* LIINK END */

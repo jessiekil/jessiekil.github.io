@@ -1,0 +1,95 @@
+@font-face {
+    font-family:'novocento';
+    src: url('novocento.woff2') format('woff2'),
+        url('novocento.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto.woff2') format('woff2'),
+        url('roboto.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  background-color:  #F8CD47;
+}
+  /* MAIN PAGE */
+
+.project{
+    font-family: 'novocento';
+    font-size: 48px;
+    margin-top: 10%;
+    margin-left: 11%;
+      float: inherit;
+
+}
+
+.aboutthe{
+  font-size: 29px;
+  color: white;
+  font-family: 'roboto', sans-serif;;
+  margin-top: 1%;
+  margin-left: 11%;
+  margin-right: 52%;
+  text-align: justify;
+  float: inherit;
+}
+
+
+  .parsonsppl{
+    font-family: 'novocento';
+    font-size: 48px;
+    margin-top: -32%;
+    margin-left: 55%;
+      float: inherit;
+
+}
+
+.paragraph{
+  font-size: 29px;
+  color: white;
+  font-family: 'roboto', sans-serif;;
+  margin-top: 1%;
+  margin-left: 55%;
+  margin-right: 11%;
+  text-align: justify;
+  padding-bottom: 6%;
+    float: inherit;
+
+}
+
+
+    /* LIINKS */
+a:link, a:visited {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+   font-size: 55px;
+   cursor: pointer;
+   font-family: 'novocento';
+   display: inline-block;
+}
+
+a.ex2 {
+  margin-left: 50%;
+}
+
+
+a:hover, a:active {
+   color: #FBFF47;
+}
+
+a.ex1:hover, a.ex1:active {color: black;}
+
+    /* LIINK END */
+
