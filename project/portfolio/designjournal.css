@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'begum';
+    src: url('begum.woff2') format('woff2'),
+        url('begum.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+/*  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+  background: black;
+}
+
+.button{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+a:link, a:visited {
+    background-color: transparent;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+   text-decoration: none;
+   font-size: 30px;
+   cursor: pointer;
+    padding: 15px 32px;
+   font-family: 'begum';
+}
+
+
+a.ex1:hover, a.ex1:active {
+    color: blue;
+}
+
+a.ex2:hover, a.ex2:active {
+    color: blue;
+}
+
+a.ex3:hover, a.ex3:active {
+    color: blue;
+}
+
+a.ex4:hover, a.ex4:active {
+    color: blue;
+}
+    /* LIINK END */
+p {
+    font-family: 'begum';
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.week{
+    font-size:30px ;
+    color: white;
+    font-family: 'begum';
+}
+
+.imgfilters0 img {
+  max-width: 400px;
+  padding: 10px;
+  margin-left: 19%;
+}
+
+.imgfilters0 img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+.imgfilters1 img {
+  max-width: 500px;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.imgfilters1 img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.imgfilters2 img {
+  max-width: 500px;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.imgfilters2 img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+
+.imgfilters3 img {
+  max-width: 500px;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.imgfilters3 img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+
+.imgfilters4 img {
+  max-width: 500px;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.imgfilters4 img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+
+.imgfilters5 img {
+  max-width: 500px;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.imgfilters5 img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+
+
+.imgfilters6 img {
+  max-width: 500px;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.imgfilters6 img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+
+.imgfilters7 img {
+  max-width: 350px;
+  padding: 10px;
+  margin-left: 20%;
+}
+
+.imgfilters7 img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.imgfilters8 img {
+  max-width: 300px;
+  padding: 10px;
+  margin-left: 25%;
+}
+
+.imgfilters8 img:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+h1{
+    font-family: 'begum';
+    font-size: 79px;
+    color: white;
+    margin-left: 26%;
+}

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'begum';
+    src: url('begum.woff2') format('woff2'),
+        url('begum.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+  background: black;
+}
+
+.arrow {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  margin: -20px 0 0 -20px;
+  content: '';
+  height: 30px;
+  left: 50%; top: 12%;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-color: white;
+  border-right-color: white;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-radius: 0 0 5px 0;
+
+    transform: translate(-50%, -50%) rotate(225deg);
+}
+
+.arrow:hover, .arrow:active {
+    color: white;
+    border-top-color: white;
+    border-left-color: white;
+}
+
+/*BEGIN LINK STYLE*/
+
+a:link, a:visited {
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+   text-decoration: none;
+   font-size: 30px;
+   cursor: pointer;
+   font-family: 'begum';
+   display: inline-block;
+}
+
+h1{
+  font-family: 'begum';
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+canvas {
+  position: all;
+  top: 0;
+  left: 0;
+}
+

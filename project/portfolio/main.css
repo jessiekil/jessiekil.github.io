@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'begum';
+    src: url('begum.woff2') format('woff2'),
+        url('begum.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+  /* This centers our sketch vertically. */
+  align-items: center;
+  background: black;
+}
+
+/* i'm using the z index to move the slider on top of the container */
+
+.intro{
+  font-family:'begum';
+  color: white;
+  font-size: 50px;
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+
+.funky-cursor {
+  cursor: url(dot.png), auto;
+}
+
+.arrow {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  margin: -20px 0 0 -20px;
+  content: '';
+  height: 30px;
+  left: 50%; top: 90%;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-color: white;
+  border-right-color: white;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-radius: 0 0 5px 0;
+
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.arrow:hover, .arrow:active {
+    color: white;
+    border-top-color: white;
+    border-left-color: white;
+}
+
+
+/*LOGO*/
+
+
+.item {
+  animation-duration: 2s;
+  animation-name: spinType;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+  position: absolute;
+}
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0.5turn);
+  }
+  60% {
+    transform: rotate(0.7turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes logoSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+
+#logo {
+  animation: logoSpin 5s ease-out infinite;
+  height:90px;
+}
+
+#logo:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+div.item {
+  animation: spinType 1s;
+}
+
+
+/*BEGIN LINK STYLE*/
+
+a:link, a:visited {
+    background-color: transparent;
+    color: white;
+    padding: 15px 32px;
+    -webkit-transition-duration: 0.4s;
+   transition-duration: 0.4s;
+   text-decoration: none;
+   font-size: 30px;
+   cursor: pointer;
+   font-family: 'begum';
+   display: inline-block;
+}
+
+
+a.ex1:hover, a.ex1:active {
+    color: blue;
+}
+
+a.ex2:hover, a.ex2:active {
+    color: blue;
+}
+
+a.ex3:hover, a.ex3:active {
+    color: blue;
+}
+
+a.ex4:hover, a.ex4:active {
+    color: blue;
+}
+    /* LIINK END */
+
